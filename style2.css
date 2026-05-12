@@ -1,0 +1,35 @@
+/*#2c3e50 #3498db #2c3e50 #ffffff #1abc9c #f4f6f8 #ff0000 */
+body {
+    background-color: #ffffff;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/*HEADER DAN NAVIGASI*/
+header {
+    color: #ffffff;
+    padding: 15px 30px;
+    /*untuk buat jadi kotak*/
+    background-color: #2c3e50;
+    display: flex;
+    /*mengubah linknya jadi keatas*/
+    justify-content: space-between; //*mengubah posisi linknya jadi ke kanan*/
+    align-items: center;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+/*bagian design menu link*/
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    color: #56b5e1;
+    /*ini buat waktu kursor berada di link bisa berubah warna*/
+}
